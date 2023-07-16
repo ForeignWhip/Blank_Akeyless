@@ -3,53 +3,45 @@
     {
       "id": "0",
       "type": "Npc",
-      "position": { "x": 741, "y": 764 },
+      "start": true,
+      "position": { "x": 766.8607389042843, "y": 731.3018047389307 },
       "size": { "width": "250", "height": "100" },
-      "title": "Bob",
-      "text": "Hello there! This is a test",
-      "data": [ { "name": "Name", "type": "string", "value": "Bob" } ]
+      "title": "",
+      "text": "Hello Welcome to Level 1 Here is the tip if you need it.",
+      "data": [ { "name": "Name", "type": "string", "value": "AI" } ]
+    },
+    {
+      "id": "2",
+      "type": "Npc",
+      "position": { "x": 1480.7632417306813, "y": 730.5439464556754 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Here is the Tip",
+      "data": [ { "name": "Name", "type": "string", "value": "AI" } ]
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 1171.55706216256, "y": 730.5439464556754 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "I'm Lost\n",
+      "data": []
     },
     {
       "id": "1",
       "type": "Player",
-      "position": { "x": 1145, "y": 763.75 },
+      "position": { "x": 1173.830637012326, "y": 898.7884853383295 },
       "size": { "width": "250", "height": "100" },
-      "title": "Jimmy",
-      "text": "Don't click on this something inappropriate will happen",
-      "data": []
-    },
-    {
-      "id": "2",
-      "type": "Player",
-      "position": { "x": 1144.5, "y": 944.25 },
-      "size": { "width": "250", "height": "100" },
-      "title": "Jimmy",
-      "text": "Click on me! I have something important to say!",
-      "data": []
-    },
-    {
-      "id": "3",
-      "type": "Npc",
-      "position": { "x": 1480.5, "y": 765.25 },
-      "size": { "width": "250", "height": "100" },
-      "title": "Bob",
-      "text": "Why did you click this...",
-      "data": []
-    },
-    {
-      "id": "4",
-      "type": "Npc",
-      "position": { "x": 1482, "y": 944.75 },
-      "size": { "width": "250", "height": "100" },
-      "title": "Job",
-      "text": "Hi! I'm not Bob I am Job",
+      "title": "",
+      "text": "End Conversation",
       "data": []
     }
   ],
   [
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "0", "targetHandle": "in" },
     { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
-    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
-    { "source": "1", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
-    { "source": "2", "sourceHandle": "out", "target": "4", "targetHandle": "in" }
+    { "source": "3", "sourceHandle": "out", "target": "2", "targetHandle": "in" }
   ]
 ]
