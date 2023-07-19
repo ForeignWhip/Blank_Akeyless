@@ -1,0 +1,55 @@
+[
+  [
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 709.9585237323188, "y": 496.7903338737692 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Welcome to the Akeyless Campus! What would you like to learn about?",
+      "data": [ { "name": "Name", "type": "string", "value": "Cindy" } ]
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 1146.8897415443573, "y": 497.1596642130178 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Cloud-Based Security",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Npc",
+      "position": { "x": 1637.215634609425, "y": 498.7913088129801 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Something about cloud-based security...",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 1149.649574966739, "y": 675.9871678453734 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Key Fragmentation",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1646.7339466088258, "y": 691.6570779847035 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Something about key fragmentation...",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "4", "targetHandle": "in" }
+  ]
+]
