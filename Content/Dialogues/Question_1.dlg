@@ -1,0 +1,66 @@
+[
+  [
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 440, "y": 495 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "In the early days, where were secrets often stored, making systems vulnerable?",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 897.6625669479217, "y": 368.8552722088937 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "On a floppy disk under the keyboard",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 899.4036680745138, "y": 567.1756879089897 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "In code and configuration files",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 899.6144646824235, "y": 767.2645688673357 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Written on sticky notes",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1381.7343640170561, "y": 571.1645905685746 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Dude, that's gnarly! But no, hard-coded secrets were a thing, as radical as that sounds!\"",
+      "data": []
+    },
+    {
+      "id": "5",
+      "type": "Npc",
+      "position": { "x": 1409.5919820425318, "y": 395.31337678275736 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Correct! We'll get out of here in no time.",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "5", "targetHandle": "in" }
+  ]
+]

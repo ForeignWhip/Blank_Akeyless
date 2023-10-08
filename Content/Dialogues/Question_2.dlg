@@ -1,0 +1,67 @@
+[
+  [
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 440, "y": 495 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "How did open-source projects, like Vault, change the secrets landscape?",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 897.6625669479217, "y": 368.8552722088937 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "They played digital rock music.",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 899.4036680745138, "y": 567.1756879089897 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "They decentralized the internet.",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 899.6144646824235, "y": 767.2645688673357 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "They centralized the sprawl of secrets.",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1313.831420079958, "y": 771.3912201266829 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Another correct answer! Let's keep going!",
+      "data": []
+    },
+    {
+      "id": "5",
+      "type": "Npc",
+      "position": { "x": 1363.4528021878375, "y": 453.6402645235976 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "That's not correct; vaults back in the day made things centralized and tubular!",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "4", "targetHandle": "in" }
+  ]
+]
