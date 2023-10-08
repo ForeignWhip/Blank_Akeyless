@@ -1,0 +1,66 @@
+[
+  [
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 440, "y": 495 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "But as time progressed, what challenge did vault-centric Secrets Management face",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 884.6043084984801, "y": 374.07857558867045 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "It couldn't play \"Sweet Child O' Mine.\"",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 884.6043084984796, "y": 565.4345867823976 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "It couldn't adapt to the rise of the multi-cloud environment.",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 890.0384084861663, "y": 765.5234677407434 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "It was allergic to the '80s neon colors.",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1348.653442611803, "y": 380.5140172067232 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "....you're joking, right?",
+      "data": []
+    },
+    {
+      "id": "5",
+      "type": "Npc",
+      "position": { "x": 1350.3945437383952, "y": 737.4397481581341 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Correct! Not much longer before we're out of here!",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "5", "targetHandle": "in" }
+  ]
+]
