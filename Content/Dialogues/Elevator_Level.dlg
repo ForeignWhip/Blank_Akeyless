@@ -1,0 +1,267 @@
+[
+  [
+    {
+      "id": "6",
+      "type": "Npc",
+      "position": { "x": 220.04462800150583, "y": 1309.9694831501793 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "How would you describe your current secrets management infrastructure?",
+      "data": []
+    },
+    {
+      "id": "7",
+      "type": "Player",
+      "position": { "x": 679.0061428457034, "y": 1190.900879185424 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "We have an ad-hoc system, but it’s not centralized",
+      "data": []
+    },
+    {
+      "id": "8",
+      "type": "Player",
+      "position": { "x": 688.2058168626249, "y": 1013.0405148582738 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "I don't use a secrets management system",
+      "data": []
+    },
+    {
+      "id": "9",
+      "type": "Player",
+      "position": { "x": 670.8286548306621, "y": 1388.1827775482973 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "We use a traditional vault system that's maintained in-house",
+      "data": []
+    },
+    {
+      "id": "10",
+      "type": "Player",
+      "position": { "x": 666.7399108231415, "y": 1584.4424899092903 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "We use a SaaS secrets management system like Akeyless Vaultless Secrets Management",
+      "data": []
+    },
+    {
+      "id": "11",
+      "type": "Npc",
+      "position": { "x": 1199.84132287044, "y": 1311.6015441349862 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "How many personnel are dedicated to managing your secrets management?",
+      "data": []
+    },
+    {
+      "id": "0",
+      "type": "Player",
+      "position": { "x": 1593.9776658844737, "y": 1011.3804366290865 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "We don’t have a dedicated team",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 1584.1891552874417, "y": 1224.9479405643342 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Only 1 or 2 people",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 1584.189155287442, "y": 1392.2424853136115 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "A small team of 3-5",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 1582.4094260879815, "y": 1617.3782290453516 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "A dedicated and specialized team of 6 or more",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 2029.1214551525404, "y": 1296.1371085427502 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "How often does your enterprise deal with hard-coded secrets or secrets in config files and CI/CD tools?",
+      "data": []
+    },
+    {
+      "id": "5",
+      "type": "Player",
+      "position": { "x": 2414.4328268357162, "y": 1208.9303777691907 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Occasionally, but we’re trying to move away from it",
+      "data": []
+    },
+    {
+      "id": "12",
+      "type": "Player",
+      "position": { "x": 2412.653097636256, "y": 1401.1411313109134 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Rarely, only in very specific cases",
+      "data": []
+    },
+    {
+      "id": "13",
+      "type": "Player",
+      "position": { "x": 2402.8645870392234, "y": 1615.5984998458912 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Never, we have strict policies against it",
+      "data": []
+    },
+    {
+      "id": "14",
+      "type": "Player",
+      "position": { "x": 2417.9922852346367, "y": 1006.9311136304359 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "All the time, it’s a common practice",
+      "data": []
+    },
+    {
+      "id": "15",
+      "type": "Npc",
+      "position": { "x": 2810.422573715653, "y": 1321.9431819349259 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "How frequently does your enterprise rotate its secrets?",
+      "data": []
+    },
+    {
+      "id": "16",
+      "type": "Player",
+      "position": { "x": 3212.6413727937024, "y": 1004.2615198312458 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Rarely or never",
+      "data": []
+    },
+    {
+      "id": "17",
+      "type": "Player",
+      "position": { "x": 3207.302185195321, "y": 1215.1594299673027 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Once a year",
+      "data": []
+    },
+    {
+      "id": "18",
+      "type": "Player",
+      "position": { "x": 3202.8528621966693, "y": 1422.4978817044384 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Quarterly",
+      "data": []
+    },
+    {
+      "id": "19",
+      "type": "Player",
+      "position": { "x": 3198.403539198019, "y": 1613.8187706464314 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Monthly or even more frequently",
+      "data": []
+    },
+    {
+      "id": "20",
+      "type": "Npc",
+      "position": { "x": 3582.8250462814644, "y": 1325.5026403338468 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "In the last year, how many times has your enterprise experienced downtime due to secrets management issues?",
+      "data": []
+    },
+    {
+      "id": "21",
+      "type": "Player",
+      "position": { "x": 3943.2202091721947, "y": 1014.050030428278 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "More than 5 times",
+      "data": []
+    },
+    {
+      "id": "22",
+      "type": "Player",
+      "position": { "x": 3947.6695321708453, "y": 1204.4810547705404 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "3-5 times",
+      "data": []
+    },
+    {
+      "id": "23",
+      "type": "Player",
+      "position": { "x": 3948.559396770576, "y": 1412.7093711074065 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "1-2 times",
+      "data": []
+    },
+    {
+      "id": "24",
+      "type": "Player",
+      "position": { "x": 3947.6695321708457, "y": 1613.8187706464312 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Never",
+      "data": []
+    }
+  ],
+  [
+    { "source": "6", "sourceHandle": "out", "target": "8", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "7", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "9", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "10", "targetHandle": "in" },
+    { "source": "8", "sourceHandle": "out", "target": "11", "targetHandle": "in" },
+    { "source": "7", "sourceHandle": "out", "target": "11", "targetHandle": "in" },
+    { "source": "9", "sourceHandle": "out", "target": "11", "targetHandle": "in" },
+    { "source": "10", "sourceHandle": "out", "target": "11", "targetHandle": "in" },
+    { "source": "11", "sourceHandle": "out", "target": "0", "targetHandle": "in" },
+    { "source": "11", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "11", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "11", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "4", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "4", "sourceHandle": "out", "target": "14", "targetHandle": "in" },
+    { "source": "4", "sourceHandle": "out", "target": "12", "targetHandle": "in" },
+    { "source": "4", "sourceHandle": "out", "target": "13", "targetHandle": "in" },
+    { "source": "5", "sourceHandle": "out", "target": "15", "targetHandle": "in" },
+    { "source": "14", "sourceHandle": "out", "target": "15", "targetHandle": "in" },
+    { "source": "12", "sourceHandle": "out", "target": "15", "targetHandle": "in" },
+    { "source": "13", "sourceHandle": "out", "target": "15", "targetHandle": "in" },
+    { "source": "15", "sourceHandle": "out", "target": "16", "targetHandle": "in" },
+    { "source": "15", "sourceHandle": "out", "target": "17", "targetHandle": "in" },
+    { "source": "15", "sourceHandle": "out", "target": "18", "targetHandle": "in" },
+    { "source": "15", "sourceHandle": "out", "target": "19", "targetHandle": "in" },
+    { "source": "16", "sourceHandle": "out", "target": "20", "targetHandle": "in" },
+    { "source": "17", "sourceHandle": "out", "target": "20", "targetHandle": "in" },
+    { "source": "18", "sourceHandle": "out", "target": "20", "targetHandle": "in" },
+    { "source": "19", "sourceHandle": "out", "target": "20", "targetHandle": "in" },
+    { "source": "20", "sourceHandle": "out", "target": "21", "targetHandle": "in" },
+    { "source": "20", "sourceHandle": "out", "target": "22", "targetHandle": "in" },
+    { "source": "20", "sourceHandle": "out", "target": "23", "targetHandle": "in" },
+    { "source": "20", "sourceHandle": "out", "target": "24", "targetHandle": "in" }
+  ]
+]
