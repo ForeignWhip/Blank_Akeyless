@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "id": "8",
+      "type": "Player",
+      "position": { "x": 831.617159822133, "y": 1295.3871740023217 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "I don't use a secrets management syste",
+      "data": []
+    },
+    {
+      "id": "6",
+      "type": "Npc",
+      "position": { "x": 220.04462800150583, "y": 1309.9694831501793 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "How would you describe your current secrets management infrastructure?",
+      "data": []
+    },
+    {
+      "id": "25",
+      "type": "Commands",
+      "position": { "x": 565.8036752127024, "y": 1308.3725169279974 },
+      "commands": [ "PrintString" ]
+    },
+    {
+      "id": "0",
+      "type": "Player",
+      "position": { "x": 800.0372086139275, "y": 1527.9397920226302 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Just Kidding",
+      "data": []
+    }
+  ],
+  [
+    { "source": "6", "sourceHandle": "out", "target": "25", "targetHandle": "in" },
+    { "source": "25", "sourceHandle": "out", "target": "8", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "0", "targetHandle": "in" }
+  ]
+]
