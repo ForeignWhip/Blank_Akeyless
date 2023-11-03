@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "id": "5",
+      "type": "Npc",
+      "position": { "x": 1319.9252740230309, "y": 723.510939145396 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Hmm, not quite. Remember, think about scalability and the cloud!",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1326.0191279661037, "y": 372.67906213705805 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Right on! Scalability is the future!",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 879.5918017266127, "y": 755.07686098119 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "An access code to Musk’s StarShip",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 884.6043084984796, "y": 565.4345867823976 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "An opportunity to meet extraterrestrials",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 884.6043084984801, "y": 374.07857558867045 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "A colorful array of secret rainbows.",
+      "data": []
+    },
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 349.46274141720306, "y": 646.4757980135257 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "When managing secrets across multi-cloud environments, what advantage do Vaultless solutions like Akeyless provide?",
+      "data": []
+    },
+    {
+      "id": "6",
+      "type": "Player",
+      "position": { "x": 890.6568731958224, "y": 951.0601587794448 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Low maintenance and quick deployment combined with streamlined scalability without the confines of traditional hardware restrictions",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "6", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "4", "targetHandle": "in" }
+  ]
+]

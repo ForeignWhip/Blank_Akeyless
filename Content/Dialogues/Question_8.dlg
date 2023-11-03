@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "id": "5",
+      "type": "Npc",
+      "position": { "x": 1319.9252740230309, "y": 723.510939145396 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "No, no, no! Think about where the real power of zero-knowledge lies!",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1326.0191279661037, "y": 372.67906213705805 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Brilliant! That's the missing puzzle piece! With your fragment, even Akeyless can't access your secrets",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 879.5918017266127, "y": 755.07686098119 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Permission from HAL 9000",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 884.6043084984796, "y": 565.4345867823976 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "A special decoder ring",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 884.6043084984801, "y": 374.07857558867045 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "A hoverboard",
+      "data": []
+    },
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 349.46274141720306, "y": 646.4757980135257 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "For Zero-Knowledge Encryption using Akeyless's DFC™, what do you need?",
+      "data": []
+    },
+    {
+      "id": "6",
+      "type": "Player",
+      "position": { "x": 888.9157720692302, "y": 951.0601587794448 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Your own Customer Fragment",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "6", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "5", "targetHandle": "in" }
+  ]
+]
