@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "id": "5",
+      "type": "Npc",
+      "position": { "x": 1319.9252740230309, "y": 723.510939145396 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Woah, that's heavy! Try thinking about who would REALLY want to keep their secrets.",
+      "data": []
+    },
+    {
+      "id": "4",
+      "type": "Npc",
+      "position": { "x": 1326.8896785293998, "y": 373.54961270035415 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "You got it right! The customer retains 100% ownership of their keys.",
+      "data": []
+    },
+    {
+      "id": "3",
+      "type": "Player",
+      "position": { "x": 879.5918017266127, "y": 755.07686098119 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Your Organization",
+      "data": []
+    },
+    {
+      "id": "2",
+      "type": "Player",
+      "position": { "x": 884.6043084984796, "y": 565.4345867823976 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Marty McFly",
+      "data": []
+    },
+    {
+      "id": "1",
+      "type": "Player",
+      "position": { "x": 884.6043084984801, "y": 374.07857558867045 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "The Cloud Providers",
+      "data": []
+    },
+    {
+      "id": "0",
+      "type": "Npc",
+      "position": { "x": 348.5921908539069, "y": 646.4757980135257 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "Using Akeyless’s DFC™, who retains 100% ownership of the keys?",
+      "data": []
+    },
+    {
+      "id": "6",
+      "type": "Player",
+      "position": { "x": 888.9157720692302, "y": 951.0601587794448 },
+      "size": { "width": "250", "height": "100" },
+      "title": "",
+      "text": "HAL 9000",
+      "data": []
+    }
+  ],
+  [
+    { "source": "0", "sourceHandle": "out", "target": "3", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "2", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "1", "targetHandle": "in" },
+    { "source": "0", "sourceHandle": "out", "target": "6", "targetHandle": "in" },
+    { "source": "1", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "2", "sourceHandle": "out", "target": "5", "targetHandle": "in" },
+    { "source": "3", "sourceHandle": "out", "target": "4", "targetHandle": "in" },
+    { "source": "6", "sourceHandle": "out", "target": "5", "targetHandle": "in" }
+  ]
+]
